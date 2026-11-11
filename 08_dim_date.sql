@@ -46,9 +46,6 @@ WHERE table_schema = 'dw'
   AND table_name = 'dim_date'
 ORDER BY ordinal_position;
 
-ALTER TABLE dw.dim_date
-RENAME COLUMN calender_date TO calendar_date;
-
 SELECT
     COUNT(*) AS total_dates,
     MIN(calendar_date) AS first_date,
