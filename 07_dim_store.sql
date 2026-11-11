@@ -7,7 +7,7 @@ select
 from information_schema.columns 
 where table_schema = 'raw'
    and table_name in (
-    	'store_lookup'
+    	'store_lookup',
    		'region_lookup'
    )
 order by table_name, ordinal_position; 
