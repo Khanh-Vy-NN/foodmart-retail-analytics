@@ -1,0 +1,12 @@
+SELECT current_database();
+
+CREATE SCHEMA IF NOT EXISTS raw;
+CREATE SCHEMA IF NOT EXISTS dw;
+CREATE SCHEMA IF NOT EXISTS mart;
+
+
+         
+     
+    
+       
+
