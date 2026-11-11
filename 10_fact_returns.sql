@@ -13,8 +13,6 @@ LIMIT 10;
 SELECT COUNT(*) AS total_returns
 FROM raw.foodmart_returns;
 
-TRUNCATE TABLE raw.foodmart_returns;
-
 SELECT
     return_date,
     product_id,
