@@ -113,9 +113,9 @@ The repository currently stores scripts at the root (listed below in their inten
 ## Project deliverables
 
 - [Dashboard PDF](FoodMart.pdf) — static preview of the three report pages
-- [Power BI template](FoodMart.pbit) — report pages, visuals, Power BI model metadata, and measures; **does not include imported data** and requires Power BI Desktop plus access to compatible source tables to load and interact with the report
+- [Power BI report](FoodMart.pbix) — interactive dashboard, DAX measures, model relationships, and imported data; open with Power BI Desktop on Windows
 - SQL scripts (linked above)
-- Power BI file with imported data (`.pbix`) and model diagram: **not included**
+- Data model diagram: **to be added**
 
 ---
 *Portfolio project for practicing end-to-end retail analytics. This is an analytical case study, not an official FoodMart report.*
